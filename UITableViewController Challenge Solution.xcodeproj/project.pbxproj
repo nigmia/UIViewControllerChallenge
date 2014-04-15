@@ -14,7 +14,6 @@
 		D849491818FDA2860097BC88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D849491718FDA2860097BC88 /* main.m */; };
 		D849491C18FDA2860097BC88 /* NNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D849491B18FDA2860097BC88 /* NNAppDelegate.m */; };
 		D849491F18FDA2860097BC88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D849491D18FDA2860097BC88 /* Main.storyboard */; };
-		D849492218FDA2860097BC88 /* NNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D849492118FDA2860097BC88 /* NNViewController.m */; };
 		D849492418FDA2860097BC88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D849492318FDA2860097BC88 /* Images.xcassets */; };
 		D849492B18FDA2860097BC88 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D849492A18FDA2860097BC88 /* XCTest.framework */; };
 		D849492C18FDA2860097BC88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D849490B18FDA2860097BC88 /* Foundation.framework */; };
@@ -46,8 +45,6 @@
 		D849491A18FDA2860097BC88 /* NNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNAppDelegate.h; sourceTree = "<group>"; };
 		D849491B18FDA2860097BC88 /* NNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNAppDelegate.m; sourceTree = "<group>"; };
 		D849491E18FDA2860097BC88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D849492018FDA2860097BC88 /* NNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNViewController.h; sourceTree = "<group>"; };
-		D849492118FDA2860097BC88 /* NNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNViewController.m; sourceTree = "<group>"; };
 		D849492318FDA2860097BC88 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D849492918FDA2860097BC88 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D849492A18FDA2860097BC88 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -118,8 +115,6 @@
 				D849491A18FDA2860097BC88 /* NNAppDelegate.h */,
 				D849491B18FDA2860097BC88 /* NNAppDelegate.m */,
 				D849491D18FDA2860097BC88 /* Main.storyboard */,
-				D849492018FDA2860097BC88 /* NNViewController.h */,
-				D849492118FDA2860097BC88 /* NNViewController.m */,
 				D849494018FDA4770097BC88 /* NNTableViewController.h */,
 				D849494118FDA4770097BC88 /* NNTableViewController.m */,
 				D849492318FDA2860097BC88 /* Images.xcassets */,
@@ -255,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D849492218FDA2860097BC88 /* NNViewController.m in Sources */,
 				D849494218FDA4770097BC88 /* NNTableViewController.m in Sources */,
 				D849491C18FDA2860097BC88 /* NNAppDelegate.m in Sources */,
 				D849491818FDA2860097BC88 /* main.m in Sources */,
