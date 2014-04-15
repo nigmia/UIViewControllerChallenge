@@ -21,6 +21,7 @@
 		D849492D18FDA2860097BC88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D849490F18FDA2860097BC88 /* UIKit.framework */; };
 		D849493518FDA2860097BC88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D849493318FDA2860097BC88 /* InfoPlist.strings */; };
 		D849493718FDA2860097BC88 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D849493618FDA2860097BC88 /* UITableViewController_Challenge_SolutionTests.m */; };
+		D849494218FDA4770097BC88 /* NNTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D849494118FDA4770097BC88 /* NNTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D849493218FDA2860097BC88 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		D849493418FDA2860097BC88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D849493618FDA2860097BC88 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		D849494018FDA4770097BC88 /* NNTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNTableViewController.h; sourceTree = "<group>"; };
+		D849494118FDA4770097BC88 /* NNTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				D849491D18FDA2860097BC88 /* Main.storyboard */,
 				D849492018FDA2860097BC88 /* NNViewController.h */,
 				D849492118FDA2860097BC88 /* NNViewController.m */,
+				D849494018FDA4770097BC88 /* NNTableViewController.h */,
+				D849494118FDA4770097BC88 /* NNTableViewController.m */,
 				D849492318FDA2860097BC88 /* Images.xcassets */,
 				D849491218FDA2860097BC88 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D849492218FDA2860097BC88 /* NNViewController.m in Sources */,
+				D849494218FDA4770097BC88 /* NNTableViewController.m in Sources */,
 				D849491C18FDA2860097BC88 /* NNAppDelegate.m in Sources */,
 				D849491818FDA2860097BC88 /* main.m in Sources */,
 			);
